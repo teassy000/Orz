@@ -58,6 +58,6 @@ may_connect(){
 }
 
 
-SWITCH=$(curl --silent https://raw.githubusercontent.com/ifree/Orz/master/tunnel.txt)
+SWITCH=$(curl --silent https://raw.githubusercontent.com/teassy000/Orz/master/tunnel.txt)
 
 may_connect $SWITCH
